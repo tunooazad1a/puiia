@@ -1,12 +1,12 @@
-diff --color --color -r /home/jcj/文档/sing-box/transport/v2raygrpc/client.go /home/jcj/文档/GitHub/sing-boxa/transport/v2raygrpc/client.go
+diff --color --color -r ~/code/sing-box/transport/v2raygrpc/client.go ~/code/GitHub/sing-boxa/transport/v2raygrpc/client.go
 69a70
 > 	dialOptions = append(dialOptions, grpc.WithUserAgent("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/141.0 Safari/537.36"))
-diff --color --color -r /home/jcj/文档/sing-box/transport/v2raygrpclite/client.go /home/jcj/文档/GitHub/sing-boxa/transport/v2raygrpclite/client.go
+diff --color --color -r ~/code/sing-box/transport/v2raygrpclite/client.go ~/code/GitHub/sing-boxa/transport/v2raygrpclite/client.go
 30c30
 < 	"User-Agent":   []string{"grpc-go/1.48.0"},
 ---
 > 	"User-Agent":   []string{"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.8059.39 Safari/537.36"},
-diff --color --color -r /home/jcj/文档/sing-box/transport/v2raywebsocket/client.go /home/jcj/文档/GitHub/sing-boxa/transport/v2raywebsocket/client.go
+diff --color --color -r ~/code/sing-box/transport/v2raywebsocket/client.go ~/code/GitHub/sing-boxa/transport/v2raywebsocket/client.go
 64c64
 < 		headers.Set("User-Agent", "Go-http-client/1.1")
 ---
